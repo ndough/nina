@@ -105,6 +105,21 @@
   border-radius: 30px;
 }
 
+.library {
+  margin: 22px;
+  float: left;
+  width: 47%;
+  justify-content: center;
+  position:relative;
+  top:0px;
+  left: 0px;
+  right:0px;
+  bottom:0px;
+  overflow:hidden;
+  text-align: center;
+  border-radius: 30px;
+}
+
 .gallery {
   margin: 13px;
   float: left;
@@ -157,9 +172,13 @@
   opacity: 1;
 }
 
+.library:hover .overlay{
+  opacity: 3;
+}
 
 .footer { 
   text-align: center;
   padding:4px;
+  justify-content: center;
   background-color: white;
 }
